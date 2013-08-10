@@ -1,8 +1,8 @@
 <?php
-function fu()
+function fu_ifier($c)
 {
-	return("FUUUUUUUUUUUUUU !");
+	return($c.' FUUUUUUUUUUUUUUU !');
 }
 
-echo fu();
+echo fu('test');
 ?>
