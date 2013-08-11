@@ -1,8 +1,5 @@
 <?php
-function fu_ifier($c)
-{
-	return($c.' FUUUUUUUUUUUUUUU !');
-}
+include('config.php');
 
-echo fu_ifier('test');
+echo 'Version: '.$version;
 ?>
